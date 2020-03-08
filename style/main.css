@@ -4,6 +4,10 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+body {
+  background-color: #F3F3F3;
+}
+
 .navbar {
   background-color: #ffffff;
   position: fixed;
@@ -41,6 +45,34 @@
 }
 .hero .heroText h6 {
   width: 80%;
+}
+
+.category {
+  height: 380px;
+  width: auto;
+  margin: 0 5%;
+}
+.category .cards {
+  display: flex;
+}
+.category .cards .card {
+  max-width: 540px;
+  padding: 10px;
+}
+.category .cards .card img {
+  width: 100%;
+  height: auto;
+  background-color: #BF173C;
+}
+.category .cards .card .text {
+  margin-top: -5px;
+  background-color: #BF173C;
+  color: #ffffff;
+  padding: 2px;
+  font-size: 1.2em;
+}
+.category .cards .card .text h1 {
+  margin: 3px;
 }
 
 /*# sourceMappingURL=main.css.map */

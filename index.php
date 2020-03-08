@@ -9,6 +9,7 @@
 <body>
     <?php include 'navbar.php' ?>
     <?php include 'hero.php' ?>
+    <?php include 'category.php' ?>
     
 </body>
 </html>

@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+body{
+    background-color: #F3F3F3;
 }
 .navbar{
     background-color: #ffffff;
@@ -39,5 +43,36 @@
         h6{
             width: 80%;
         }
+    }
+}
+.category{
+    height: 380px;
+    width: auto;
+    margin: 0 5%;
+    .cards{
+        display: flex;
+        .card{
+            
+            max-width: 540px;
+            padding: 10px;
+            img{
+                width: 100%;
+                height: auto;
+                background-color: #BF173C;
+            }
+            .text{
+                margin-top: -5px;
+                background-color: #BF173C;
+                color: #ffffff;
+                padding: 2px;
+                font-size: 1.2em;
+                h1{
+                    margin:3px;
+                }
+            }
+        }
+    }
+    .picture{
+
     }
 }
