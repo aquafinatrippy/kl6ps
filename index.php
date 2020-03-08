@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php include 'navbar.php' ?>
+    <?php include 'hero.php' ?>
     
 </body>
 </html>
