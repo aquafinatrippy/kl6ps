@@ -17,6 +17,12 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.navbar .navLeft {
+  display: flex;
+}
+.navbar .navLeft li {
+  align-self: center;
+}
 .navbar ul {
   list-style: none;
   display: flex;
@@ -76,10 +82,6 @@ body {
 }
 .shopItems {
   margin: 5% 5%;
-  /* Remove extra left and right margins, due to padding */
-  /* Clear floats after the columns */
-  /* Responsive columns */
-  /* Style the counter cards */
 }
 .shopItems img {
   width: 100%;

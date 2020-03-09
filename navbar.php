@@ -1,6 +1,6 @@
 <div class='navbar'>
     <div class='navLeft'>
-        <img src="" alt="" srcset="">
+        <img src="./assets/logo.png" alt="" srcset="">
         <ul>
             <li>Avaleht</li>
             <li>Kontakt</li>
